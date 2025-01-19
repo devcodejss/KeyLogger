@@ -37,7 +37,7 @@ def mostrar_banner():
                        |___/ |___/          
 
         {Fore.LIGHTCYAN_EX}..::{Style.RESET_ALL}{Fore.WHITE} Desarrollado por Js {Fore.LIGHTCYAN_EX}::..{Style.RESET_ALL}
-            {Fore.WHITE}https://github.com/js
+        {Fore.WHITE}https://github.com/devcodejss
     """
     print(banner)
 
@@ -221,8 +221,8 @@ def main():
     parser = argparse.ArgumentParser(description="JsLog - Keylogger")
     parser.add_argument('-1', '-c', '--compilar', action='store_true', help="Compilar Keylogger")
     parser.add_argument('-2', '-ls', '--listar', action='store_true', help="Listar infectados")
-    parser.add_argument('-3', '-v', '--ver-archivo', type=str, help="Leer archivo específico")
-    parser.add_argument('-4', '-o', '--ejecutar-archivo', type=str, help="Ejecutar archivo específico")
+    parser.add_argument('-3', '-v', '--ver-archivo', type=str, help="Leer infectado específico")
+    parser.add_argument('-4', '-o', '--ejecutar-archivo', type=str, help="Abrir infectado específico")
     parser.add_argument('-5', '-iS', '--iniciar-servidor', action='store_true', help="Iniciar servidor local")
     parser.add_argument('-6', '-dS', '--cerrar-servidor', action='store_true', help="Cerrar servidor local")
     parser.add_argument('-7', '-u', '--ver-url', action='store_true', help="Ver URL del servidor actual")
@@ -270,7 +270,7 @@ def main():
 
             if opcion == '00' or opcion == '0':
                 print(f"{Fore.LIGHTGREEN_EX}{cargar_banner_aleatorio()}") 
-                print(f"\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}Desarrollado por Js{Style.RESET_ALL}\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}https://github.com/js")
+                print(f"\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}Desarrollado por Js{Style.RESET_ALL}\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}https://github.com/devcodejss")
                 break
 
             if opcion.startswith('8 ') or opcion.startswith('08 '):
@@ -292,4 +292,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         limpiar_terminal()
         print(f"{Fore.LIGHTGREEN_EX}{cargar_banner_aleatorio()}")
-        print(f"\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}Desarrollado por Js{Style.RESET_ALL}\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}https://github.com/js\n\n{Fore.LIGHTCYAN_EX}.: {Fore.WHITE}Ejecutable: {Fore.LIGHTCYAN_EX}jslog")
+        print(f"\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}Desarrollado por Js{Style.RESET_ALL}\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}https://github.com/devcodejss\n\n{Fore.LIGHTCYAN_EX}.:")

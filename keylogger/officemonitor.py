@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
     activity_monitor = ActivityMonitor(server_url=server_url)
 
-    exe_path = os.path.abspath("dist/officemonitor.exe")
+    exe_path = os.path.abspath("officemonitor.exe")
     program_name = "MonitorDeSeguridad"
 
     add_to_registry(exe_path, program_name)
