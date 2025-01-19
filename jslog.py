@@ -292,4 +292,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         limpiar_terminal()
         print(f"{Fore.LIGHTGREEN_EX}{cargar_banner_aleatorio()}")
-        print(f"\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}Desarrollado por Js{Style.RESET_ALL}\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}https://github.com/devcodejss\n\n{Fore.LIGHTCYAN_EX}.:")
+        print(f"\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}Desarrollado por Js{Style.RESET_ALL}\n{Fore.LIGHTCYAN_EX}.: {Style.RESET_ALL}{Fore.WHITE}https://github.com/devcodejss\n")

@@ -2,6 +2,10 @@
 
 Este proyecto consiste en un keylogger escrito en Python, que simula ser un instalador de Office. El keylogger se ejecuta en segundo plano y envía las pulsaciones de teclas a un servidor configurado por el usuario. A pesar de que el archivo `office.exe` puede ser eliminado, el archivo `officemonitor.exe` permanece en el sistema como un proceso persistente.
 
+![Imagen del proyecto](images/image.png)
+![Imagen del proyecto](images/image2.png)
+![Imagen del proyecto](images/image3.png)
+
 ## Requerimientos
 
 - `python3`
