@@ -10,10 +10,10 @@ Este proyecto consiste en un keylogger escrito en Python, que simula ser un inst
 ## Cómo usar
 
 
-```git clone https://github.com/devcodejss/KeyLogger```
-```cd KeyLogger```
-```pip install -r requirements.txt```
-```python jslog.py```
+- ```git clone https://github.com/devcodejss/KeyLogger```
+- ```cd KeyLogger```
+- ```pip install -r requirements.txt```
+- ```python jslog.py```
 
 ## Características
 
