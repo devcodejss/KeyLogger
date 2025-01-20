@@ -12,7 +12,7 @@ Este proyecto consiste en un keylogger escrito en Python, que simula ser un inst
 ## Cómo usar
 
 ```bash
-      git clone https://github.com/devcodejss/KeyLogger
+git clone https://github.com/devcodejss/KeyLogger
 ```
  ```bash
  cd KeyLogger
