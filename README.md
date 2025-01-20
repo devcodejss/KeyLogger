@@ -6,8 +6,8 @@ Este proyecto consiste en un keylogger escrito en Python, que simula ser un inst
 
 ## Requerimientos
 
-```pip3```
-```python3```
+`pip3` <br>
+`python3`
 
 ## Cómo usar
 
