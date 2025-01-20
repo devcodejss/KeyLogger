@@ -6,16 +6,23 @@ Este proyecto consiste en un keylogger escrito en Python, que simula ser un inst
 
 ## Requerimientos
 
-- `pip3`
-- `python3`
+```pip3```
+```python3```
 
 ## Cómo usar
 
-
-- ```git clone https://github.com/devcodejss/KeyLogger```
-- ```cd KeyLogger```
-- ```pip install -r requirements.txt```
-- ```python jslog.py```
+```bash
+      git clone https://github.com/devcodejss/KeyLogger
+```
+ ```bash
+ cd KeyLogger
+ ```
+```bash
+pip install -r requirements.txt
+```
+```bash
+python jslog.py
+```
 
 ## Características
 
